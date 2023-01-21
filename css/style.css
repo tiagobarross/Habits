@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #09090A;
+    height: 100vh; /*viweport height*/
+    color: #fff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+    position: fixed;
+    width: 100%;
+    background: #09090A;
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    gap: 12px; /*space between in itens with display flex*/
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #8B5CF6;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button:active{
+    background-color: #17171a;
+}
+
+#form-habits{
+    display: flex;
+    padding: 182px 32px 32px;
+    width: fit-content;
+}
+
+.habits{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.habit{
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days{
+    display: flex;
+    margin-left: 32px;
+    gap: 48px;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.day > div{
+    margin-bottom: 8px;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    line-height: 125%;
+    color: #A1A1AA;
+    text-align: center;
+}
+
+input{
+    appearance: none; /*this type of input needs none appearence to work your settings*/
+    -webkit-appearance: none;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    border: 2px solid #27272A;
+    background: #18181B;
+}
+
+input:checked{
+    background: #8B5CF6;
+    border: 2px solid #A78BFA;
+}
+
+@media (max-width: 570px){
+    button > div{
+        display: none;
+    }
+}
