@@ -32,7 +32,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Habits é um app para auxiliar a rastrear hábitos.
+O Habit é um app para auxiliar a rastrear hábitos.
+
+-[Visite o projeto online](https://tiagobarross.github.io/nlw-setup)
 
 ## 🔖 Layout
 
